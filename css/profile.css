@@ -1,0 +1,300 @@
+html{
+    height: auto;
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:linear-gradient(#F4442E,#2B0504);
+    color: white;
+    padding-top:60px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+#useredit{
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+    margin-top: 5rem;
+}
+
+#formdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin-bottom: 1rem;
+}
+
+#profilepiccontainer{
+    width: 10rem;
+    height: 10rem;
+    border-radius:1.5rem ;
+    margin-top: -4rem;
+}
+
+#profilepic{
+    width: 18rem;
+    height: 14rem;
+    gap:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:1.5rem ;
+}
+
+#profile{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+h1{
+    margin: 0;
+}
+
+#profilestuff{
+    display: flex;
+    flex-direction: column;
+    background-color: orangered;
+    border-radius:1.5rem ;
+    width: 60rem;
+    height: 30rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#profiletitle{
+    height: 1rem;
+    margin-top: -2rem;
+}
+
+input[type="file"]::file-selector-button{
+    position: relative;
+    padding: 0.5rem;
+    width: 10rem;
+    font-weight: 400;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(121, 25, 9);
+    border:0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/*input[type="file"]:hover::file-selector-button{
+   background-color:blue;
+}*/
+
+
+#photo{
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(121, 25, 9);
+    border:0;
+}
+
+
+
+#editbutton{
+    background-color:rgb(121, 25, 9);
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 5rem;
+}
+
+.btn-warning{
+    position: relative;
+    padding: 0.5rem;
+    width: 11rem;
+    font-weight: 400;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(121, 25, 9);
+    border:0;
+    overflow: hidden;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.btn-warning input[type="file"]{
+    cursor: pointer;
+    position: absolute;
+    transform: scale(3);
+    opacity: 0;
+}
+
+/*Nav bar styling*/
+
+:root {
+    --primary: #401414;
+    --secondary: #BA392B;
+    --on-primary: #CE2B23;
+    --on-secondary: #F4442E;
+}
+
+
+#Icon_metro-menu{
+    margin-top: 50%;
+    cursor: pointer;
+}
+#Icon_account{
+    margin-top:30%;
+    margin-left:5%;
+    cursor: pointer;
+}
+
+div.container{
+    max-width: fit-content;
+    height: 60px;
+    text-align: left;
+    cursor: pointer;
+}
+
+#navigation{
+   background-color: var(--primary);
+   z-index: 5;
+   position: fixed;
+   top: 0;
+   height: 3.5rem;
+
+}
+
+
+.list-group-item{
+    background-color: var(--on-secondary);
+}
+
+.navbar{
+    padding: 0;
+}
+a.navbar-brand{
+    margin-left: 4%;
+    color: white;
+    opacity: 80%;
+}
+a.navbar-brand:hover{
+    color: var(--on-secondary);
+}
+
+form.d-flex{
+    margin-right: 30%;
+    width: 40%;
+}
+input.form-control.mt-2.mb-2.d-flex{
+    border-radius: 1.1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+button.btn.d-flex{
+    height: fit-content;
+    background-color: var(--on-primary);
+    border-radius: 1.1rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/*Slide Menu Styling*/
+
+#content{
+    background-color: var(--on-secondary);
+    z-index: 3;
+    position: fixed;
+}
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    z-index: 2;
+}
+
+#sidebar-nav {
+    width: 200px;
+    border-style: none; 
+    
+}
+
+#sidebar{
+    height: auto;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover{
+    color: black;
+}
+
+.list-unstyled{
+    margin-top:20px ;
+}
+
+.h-color{
+    height:0px;
+    border:none;
+    border-top:1px solid black;
+}
+
+
+input[type="text"]{
+    background: transparent;
+    border: 0 none;
+    color: #fff;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+    outline: none;
+    padding: 5px;
+    box-shadow: none;
+    cursor: default;
+}
+
+input[type="text"]:focus, input[type="text"]:active {
+    background: transparent;
+    outline: 0 none;
+    border-bottom: 1px solid white;
+    color: white;
+    box-shadow: none;
+}
+
+/*.form-control:focus, .form-control:active {
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid white;
+}*/
+
+/*Footer styling*/
+
+footer{
+    background-color: #663D3A;
+    width: auto;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 2px;
+
+}
+
