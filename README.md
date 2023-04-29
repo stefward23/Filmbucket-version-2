@@ -4,7 +4,8 @@ Project requirements are below:
 
 
 You are to add an additional API within your project, that adds brand new functionality within your website
-Create another word document, that resembles the API Research paper we did in Project 1, for this API you've added. You can add this document to the previously created paper in Project 1.
+Create another word document, that resembles the API Research paper we did in Project 1, for this API you've added. 
+You can add this document to the previously created paper in Project 1.
 Update the project to use only Express.JS for all navigation within your project. Create a route for each page. You will need to set up server side coding, using Node.JS and Express.
 Within each route, apply a CSS styling somewhere on the page.
 Create a form within your webpage, using appropriate Bootstrap elements. The form will be used to register a user. The user should be to sign up with the following information: 
